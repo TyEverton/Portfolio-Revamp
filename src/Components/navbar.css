@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+.navBar {
+  background-color: rgb(81, 81, 82);
+  width: 8vw;
+  height: 100vh;
+}
+
+.linkBtns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
