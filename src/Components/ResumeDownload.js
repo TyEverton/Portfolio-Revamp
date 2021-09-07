@@ -1,9 +1,9 @@
-import React from 'react'
+import {Component} from 'react'
 import jsPDF from 'jspdf'
 import Resume from '../Resume.png'
 import "./resumedownload.css"
 
-class DownloadLink extends React.Component {
+class DownloadLink extends Component {
   pdfGenerate = () => {
     const doc = new jsPDF('landscape', 'px', 'a4', 'false')
     doc.addImage(Resume, 'PNG', 100, 0, 380, 450)

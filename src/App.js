@@ -1,14 +1,14 @@
 import './App.css'
-import HomePage from './Components/HomePage'
 import NavBar from "./Components/NavBar"
 import DownloadLink from "./Components/ResumeDownload"
+import ContactForm from "./Components/ContactForm"
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
       <NavBar />
       <DownloadLink />
+      <ContactForm />
     </div>
   )
 }
