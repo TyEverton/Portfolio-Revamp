@@ -6,5 +6,32 @@
 }
 
 .navButtons {
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: right;
+  position: relative;
+  top: -155px;
+  right: 11%;
+  gap: 20px;
+}
+
+.devicon-github-original {
+  font-size: 3rem;
+  color: white;
+}
+
+.devicon-github-original:hover {
+  color: rgb(99, 235, 240);
+}
+
+
+.devicon-linkedin-plain {
+  font-size: 3rem;
+  color: white;
+}
+
+devicon-linkedin-plain:hover {
+
+color: rgb(99, 235, 240);
 }

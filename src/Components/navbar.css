@@ -9,5 +9,17 @@ body {
 }
 
 .navBtns {
-  
+  background-color: transparent;
+  position: relative;
+  left: 75%;
+  height: 45px;
+  width: 6.5%;
+  top: 29px;
+  display: flex;
+  align-items: center;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
 }
