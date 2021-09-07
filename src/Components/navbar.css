@@ -17,9 +17,15 @@ body {
   top: 29px;
   display: flex;
   align-items: center;
-  border-width: thin;
+  border-width: 2px;
   border-color: white;
   border-radius: 5px;
   font-size: 20px;
   color: white;
+}
+
+.navBtns:hover {
+  color: rgb(99, 235, 240);
+  transition-duration: 0.3s;
+  border-color: rgb(99, 235, 240);
 }
