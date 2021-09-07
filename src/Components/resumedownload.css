@@ -1,0 +1,21 @@
+.downloadBtn {
+  background-color: transparent;
+  position: absolute;
+  left: 67%;
+  height: 45px;
+  width: 6.5%;
+  top: 29px;
+  display: flex;
+  align-items: center;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.downloadBtn:hover {
+   color: rgb(99, 235, 240);
+  transition-duration: 0.3s;
+  border-color: rgb(99, 235, 240);
+}
