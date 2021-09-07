@@ -1,34 +1,42 @@
 .formContainer {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  left: 355px;
-  top: 355px;
+display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
   box-shadow: 8px 12px 23px 7px rgba(0,0,0,0.36);
-  width: 400;
-  height: 220px;
-
+  height: 320px;
+  width: 500px;
+  background-color: rgb(255, 248, 248);
+  left: 42%;
+  top: 50%;
+  border-radius: 10px;
 }
 
 .contactHeader {
+
+}
+
+
+.submitBtn {
+  background-color: transparent;
   position: relative;
-  bottom: 68%;
-
-}
-
-.contactBody {
-
-}
-
-.formLogo {
+  height: 45px;
+  width: 50%;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 18px;
   color: black;
-  position: relative;
-  left: 80px;
 }
 
-.submitButton {
-  
+.submitBtn:hover {
+  color: rgb(99, 235, 240);
+  transition-duration: 0.3s;
+  border-color: rgb(99, 235, 240);
 }
 
+.textArea {
+  resize: none;
+}
