@@ -1,0 +1,30 @@
+.photo {
+  height: 355px;
+  width: 355px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 35%;
+  left: 30%;
+}
+
+
+.aboutMeHeader {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  font-family: 'Montserrat';
+}
+
+.aboutMeIntro {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  font-family: 'Montserrat';
+}
+
+.aboutMeBody {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  font-family: 'Montserrat';
+}

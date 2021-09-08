@@ -8,7 +8,6 @@ class DownloadLink extends Component {
     const doc = new jsPDF('landscape', 'px', 'a4', 'false')
     doc.addImage(Resume, 'PNG', 100, 0, 380, 450)
     doc.save('Ty Everton Resume.pdf')
-   
   }
   render() {
     return (
