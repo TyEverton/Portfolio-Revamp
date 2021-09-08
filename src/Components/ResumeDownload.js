@@ -13,7 +13,7 @@ class DownloadLink extends Component {
   render() {
     return (
       <div>
-        <button className="downloadBtn" onClick={this.pdfGenerate}>Resume Download</button>
+        <button className="downloadBtn" onClick={this.pdfGenerate}>RESUMÉ</button>
       </div>
     )
   }

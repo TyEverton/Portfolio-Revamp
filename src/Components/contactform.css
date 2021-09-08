@@ -1,21 +1,26 @@
 .formContainer {
   position: absolute;
-display: flex;
+  display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
+  justify-content: center;
+	align-items: left;
   box-shadow: 8px 12px 23px 7px rgba(0,0,0,0.36);
-  height: 320px;
-  width: 500px;
+  height: 420px;
+  width: 700px;
   background-color: rgb(255, 248, 248);
-  left: 42%;
-  top: 50%;
+  left: 32%;
+  top: 195%;
   border-radius: 10px;
 }
 
 .contactHeader {
-
+  position: absolute;
+  top: 189%;
+  left: 32%;
+  z-index: 2;
+  font-family: 'Montserrat';
+  font-size: 26px;
 }
 
 
@@ -23,12 +28,16 @@ display: flex;
   background-color: transparent;
   position: relative;
   height: 45px;
-  width: 50%;
+  width: 20%;
   border-width: 2px;
-  border-color: white;
-  border-radius: 5px;
-  font-size: 18px;
-  color: black;
+  border-color: rgb(243, 14, 14);
+  border-radius: 15px;
+  font-size: 20px;
+  color: red;
+  top: 15px;
+  left: 11px;
+  font-family: 'Montserrat';
+  cursor: pointer;
 }
 
 .submitBtn:hover {
@@ -39,4 +48,14 @@ display: flex;
 
 .textArea {
   resize: none;
+  position: relative;
+  width: 50%;
+    font-family: 'Montserrat';
 }
+
+.input {
+  width: 50%;
+  height: 50px;
+  font-family: 'Montserrat';
+}
+

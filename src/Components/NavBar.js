@@ -3,7 +3,9 @@ import "./navbar.css"
 
 const NavBar = () => {
   return (
-    <div className="navBar">
+    <div>
+      {/* <button className="navBtns">PROJECTS</button> */}
+      <div className="navBar"></div>
       <button className="navBtns">PROJECTS</button>
     </div>
   )

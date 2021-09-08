@@ -1,25 +1,27 @@
+
+
 .intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 45%;
+  bottom: 65%;
+    font-family: 'Montserrat';
 }
 
 .navButtons {
   display: flex;
   flex-direction: row;
   align-items: center;
-  float: right;
-  position: relative;
-  top: -155px;
-  right: 11%;
-  gap: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 90%
 }
 
 .devicon-github-original {
   font-size: 3rem;
-  color: white;
+  color: rgb(241, 8, 8);
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .devicon-github-original:hover {
@@ -29,12 +31,23 @@
 
 .devicon-linkedin-plain {
   font-size: 3rem;
-  color: white;
+  color: rgb(243, 17, 17);
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .devicon-linkedin-plain:hover {
   color: rgb(99, 235, 240);
   transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(81, 81, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+    font-family: 'Montserrat';
 }

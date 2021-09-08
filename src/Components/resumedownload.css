@@ -3,15 +3,18 @@
   position: absolute;
   left: 67%;
   height: 45px;
-  width: 6.5%;
-  top: 29px;
+  width: 8%;
+  top: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-width: 2px;
-  border-color: white;
-  border-radius: 5px;
+  border-color: rgb(243, 14, 14);
+  border-radius: 15px;
   font-size: 20px;
-  color: white;
+  color: red;
+  font-family: 'Montserrat';
+  cursor: pointer;
 }
 
 .downloadBtn:hover {
