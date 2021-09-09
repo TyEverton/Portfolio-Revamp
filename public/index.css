@@ -1,39 +1,58 @@
 body {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 245, 245);
 }
 .navButtons {
   display: flex;
   flex-direction: row;
   align-items: center;
   position: absolute;
-  left: 50%;
-  bottom: 90%;
+  gap: 15px;
+  bottom: 35.5%;
+  left: 54%;
+  margin-right: 4%;
+
+
 }
 
 .devicon-github-original {
-  font-size: 3rem;
-  color: rgb(241, 8, 8);
+  font-size: 2rem;
+  color: #28C2FF;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  background-color: white;
+  border: solid;
+  padding: 5px;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  transition-duration: 0.5s;
 }
 
 .devicon-github-original:hover {
-  color: rgb(99, 235, 240);
-  transition-duration: 0.3s;
-}
-
-.devicon-linkedin-plain {
-  font-size: 3rem;
-  color: rgb(243, 17, 17);
-  background-color: transparent;
-  border: none;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
   cursor: pointer;
 }
 
+.devicon-linkedin-plain {
+  font-size: 2rem;
+  color: #28C2FF;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid;
+  padding: 5px;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
 .devicon-linkedin-plain:hover {
-  color: rgb(99, 235, 240);
-  transition-duration: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
   cursor: pointer;
 }
 
@@ -54,16 +73,17 @@ body {
   position: absolute;
   top: 105%;
   border: solid;
-  border-color: rgb(247, 244, 244);
-  border-radius: 5px;
+  border-color: white;
+  border-radius: 10px;
   height: 285px;
   width: 700px;
   right: 31%;
-  background-color: rgb(247, 244, 244);
+  background-color: white;
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
 }
 
 .htmlLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border-style: solid;
   border-color: rgb(173, 173, 173);
@@ -79,7 +99,7 @@ body {
 }
 
 .cssLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border: solid;
   border-color: rgb(173, 173, 173);
@@ -95,7 +115,7 @@ body {
 }
 
 .javascriptLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border: solid;
   border-color: rgb(173, 173, 173);
@@ -111,7 +131,7 @@ body {
 }
 
 .nodejsLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border: solid;
   border-color: rgb(173, 173, 173);
@@ -127,7 +147,7 @@ body {
 }
 
 .reactLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border: solid;
   border-color: rgb(173, 173, 173);
@@ -159,7 +179,7 @@ body {
 }
 
 .expressLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border: solid;
   border-color: rgb(173, 173, 173);
@@ -175,7 +195,7 @@ body {
 }
 
 .gitLogo {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border: solid;
   border-color: rgb(173, 173, 173);
@@ -190,8 +210,14 @@ body {
   box-shadow: 5px 5px 15px -7px #000000;
 }
 
+.projectsLogo {
+  height: 2%;
+  width: 2%;
+  color: blue;
+}
+
 .footer {
-  background-color: rgb(81, 81, 82);
+  background-color: #272d2d;
   display: flex;
   justify-content: center;
   align-items: center;

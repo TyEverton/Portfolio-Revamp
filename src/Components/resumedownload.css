@@ -1,24 +1,25 @@
 .downloadBtn {
   background-color: transparent;
   position: absolute;
-  left: 67%;
+  left: 47%;
   height: 45px;
-  width: 8%;
-  top: 50px;
+  width: 6%;
+  top: 60.5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-width: 2px;
-  border-color: rgb(243, 14, 14);
-  border-radius: 15px;
-  font-size: 20px;
-  color: red;
+  background-color: #28C2FF;
+  border-color: #28C2FF;
+  border-width: 1px;
+  border-radius: 35px;
+  font-size: 15px;
+  color: white;
   font-family: 'Montserrat';
   cursor: pointer;
+  transition: 500ms;
 }
 
 .downloadBtn:hover {
-   color: rgb(99, 235, 240);
+  transform: scale(1.1);
   transition-duration: 0.3s;
-  border-color: rgb(99, 235, 240);
 }

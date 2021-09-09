@@ -5,10 +5,10 @@
 	flex-wrap: nowrap;
   justify-content: center;
 	align-items: left;
-  box-shadow: 8px 12px 23px 7px rgba(0,0,0,0.36);
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
   height: 420px;
   width: 700px;
-  background-color: rgb(255, 248, 248);
+  background-color: white;
   left: 32%;
   top: 195%;
   border-radius: 10px;
@@ -30,20 +30,19 @@
   position: relative;
   height: 45px;
   width: 20%;
-  border-width: 2px;
-  border-color: rgb(243, 14, 14);
+  border-width: 1px;
+  border-color: #28C2FF;
   border-radius: 15px;
   font-size: 20px;
-  color: red;
+  color: white;
+  background-color: #28C2FF;
   top: 15px;
   font-family: 'Montserrat';
   cursor: pointer;
 }
 
 .submitBtn:hover {
-  color: rgb(99, 235, 240);
   transition-duration: 0.3s;
-  border-color: rgb(99, 235, 240);
 }
 
 .textArea {
@@ -51,17 +50,17 @@
   position: relative;
   width: 50%;
   font-family: 'Montserrat';
-  border-color: rgb(255, 0, 0);
+  border-color: #28C2FF;
   border-radius: 5px;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .input {
   width: 50%;
   height: 50px;
   font-family: 'Montserrat';
-  border-color: rgb(255, 0, 0);
+  border-color: #28C2FF;
   border-radius: 5px;
-  border-width: 2px;
+  border-width: 1px;
 }
 

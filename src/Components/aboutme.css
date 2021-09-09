@@ -1,10 +1,10 @@
 .photo {
   height: 355px;
   width: 355px;
-  border-radius: 50%;
+  border-radius: 10px;
   position: absolute;
   bottom: 35%;
-  left: 30%;
+  left: 27%;
 }
 
 
@@ -17,10 +17,20 @@
 
 .aboutMeIntro {
   position: absolute;
+  bottom: 60%;
+  left: 50%;
+  font-family: 'Montserrat';
+  font-size: 25px;
+}
+
+.nameIntro {
+  position: absolute;
   bottom: 55%;
   left: 50%;
   font-family: 'Montserrat';
+  font-size: 25px;
 }
+
 
 .aboutMeBody {
   position: absolute;
