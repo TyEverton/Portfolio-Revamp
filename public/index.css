@@ -4,7 +4,7 @@
   align-items: center;
   position: absolute;
   left: 50%;
-  bottom: 90%
+  bottom: 90%;
 }
 
 .devicon-github-original {
@@ -34,11 +34,109 @@
   cursor: pointer;
 }
 
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 6%;
+  position: absolute;
+  top: 105%;
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  height: 285px;
+  width: 700px;
+  right: 31%;
+}
+
+.devicon-html5-plain {
+  font-size: 55px;
+  color: black;
+  border-style: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 1s;
+  border-width: 1px;
+}
+
+.devicon-html5-plain:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+
+.devicon-css3-plain {
+  font-size: 55px;
+    color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.devicon-javascript-plain {
+  font-size: 55px;
+    color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.devicon-nodejs-plain {
+  font-size: 55px;
+    color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.devicon-react-original {
+  font-size: 55px;
+  color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.devicon-postgresql-plain {
+  font-size: 55px;
+    color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.devicon-express-original {
+  font-size: 55px;
+    color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.devicon-git-plain {
+  font-size: 55px;
+    color: black;
+  border: solid;
+  border-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .footer {
   background-color: rgb(81, 81, 82);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 55px;
-    font-family: 'Montserrat';
+  font-family: 'Montserrat';
 }
