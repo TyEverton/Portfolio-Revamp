@@ -1,14 +1,57 @@
 .projectsHeader {
   background-color: transparent;
   position: absolute;
-  left: 32%;
+  left: 30%;
   height: 45px;
   width: 6.5%;
-  top: 140%;
+  top: 144%;
   font-size: 1.5em;
   color: black;
   font-family: 'Montserrat';
   font-size: 25px;
+}
+
+.projectContainer {
+  position: absolute;
+  top: 150%;
+  left: 30%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+}
+
+.mealProject {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  border-width: thin;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.mealProjectHeader {
+  position: absolute;
+  bottom: 90%;
+  left: 0%;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+
+.mealProjectBody {
+  position: absolute;
+  text-align: left;
+  top: 10%;
+  left: 25%;
+  font-family: 'Montserrat';
+  font-size: .9em;
 }
 
 @media all and (max-width: 500px) {
