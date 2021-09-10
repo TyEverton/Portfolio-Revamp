@@ -1,21 +1,22 @@
 body {
   background-color: rgb(248, 245, 245);
 }
+
+
+
 .navButtons {
   display: flex;
   flex-direction: row;
   align-items: center;
   position: absolute;
-  gap: 15px;
+  gap: 25%;
   bottom: 35.5%;
-  left: 54%;
+  left: 57%;
   margin-right: 4%;
-
-
 }
 
 .devicon-github-original {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #28C2FF;
   background-color: transparent;
   border: none;
@@ -36,7 +37,7 @@ body {
 }
 
 .devicon-linkedin-plain {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #28C2FF;
   background-color: transparent;
   border: none;
@@ -60,6 +61,8 @@ body {
   position: absolute;
   bottom: -5%;
   left: 32%;
+  font-size: 1.5em;
+  font-family: 'Montserrat';
 }
 
 .skillContainer {
@@ -75,9 +78,9 @@ body {
   border: solid;
   border-color: white;
   border-radius: 10px;
-  height: 285px;
-  width: 700px;
-  right: 31%;
+  height: 30%;
+  width: 35%;
+  left: 32%;
   background-color: white;
   box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
 }
@@ -88,7 +91,7 @@ body {
   border-style: solid;
   border-color: rgb(173, 173, 173);
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 5%;
   border-width: 1px;
   transition: 400ms;
 }
@@ -223,4 +226,29 @@ body {
   align-items: center;
   height: 55px;
   font-family: 'Montserrat';
+  color: white;
+}
+
+@media all and (max-width: 500px) {
+  .navButtons {
+    top: 30%;
+    left: 63%;
+  }
+  .footer {
+    position: absolute;
+    top: 300vh;
+    width: 100vw;
+  }
+  .skillsHeader {
+    position: absolute;
+    top: 89%;
+    left: 40%;
+  }
+  .skillContainer {
+    width: 25em;
+    height: 20em;
+    position: absolute;
+    left: 11%;
+    top: 95%;
+  }
 }

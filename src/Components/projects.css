@@ -1,0 +1,20 @@
+.projectsHeader {
+  background-color: transparent;
+  position: absolute;
+  left: 32%;
+  height: 45px;
+  width: 6.5%;
+  top: 140%;
+  font-size: 1.5em;
+  color: black;
+  font-family: 'Montserrat';
+  font-size: 25px;
+}
+
+@media all and (max-width: 500px) {
+  .projectsHeader {
+    position: absolute;
+    top: 133%;
+    left: 40%;
+  }
+}

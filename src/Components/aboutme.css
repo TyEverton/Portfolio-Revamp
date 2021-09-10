@@ -1,12 +1,11 @@
 .photo {
-  height: 355px;
-  width: 355px;
+  height: 22em;
+  width: 22em;
   border-radius: 10px;
   position: absolute;
   bottom: 35%;
   left: 27%;
 }
-
 
 .aboutMeHeader {
   position: absolute;
@@ -20,7 +19,7 @@
   bottom: 60%;
   left: 50%;
   font-family: 'Montserrat';
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .nameIntro {
@@ -28,13 +27,52 @@
   bottom: 55%;
   left: 50%;
   font-family: 'Montserrat';
-  font-size: 25px;
+  font-size: 1.5em;
+}
+
+.aboutMeHeader {
+  font-size: 1.5em;
+  position: absolute;
+  left: 50%;
+  top: 42%;
 }
 
 
 .aboutMeBody {
   position: absolute;
-  bottom: 40%;
+  bottom: 43%;
   left: 50%;
   font-family: 'Montserrat';
+  font-size: 1em;
+  text-align: left;
+  width: 47%;
+}
+
+@media all and (max-width: 500px) {
+  .photo {
+    height: 16em;
+    width: 16em;
+    top: 5%;
+    left: 30%;
+  }
+  .aboutMeIntro {
+    font-size: 1.5em;
+    top: 32%;
+    left: 30%;
+  }
+  .nameIntro {
+    font-size: 1em;
+    top: 37%;
+    left: 30%;
+    text-align: left;
+  }
+  .aboutMeHeader {
+    font-size: 1.2em;
+    left: 30%;
+    top: 50%;
+  }
+  .aboutMeBody {
+    top: 54%;
+    left: 30%;
+  }
 }

@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar'
 import DownloadLink from './Components/ResumeDownload'
 import ContactForm from './Components/ContactForm'
 import AboutMe from './Components/AboutMe'
+import Projects from "./Components/Projects"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <DownloadLink />
       <ContactForm />
       <AboutMe />
+      <Projects />
     </div>
   )
 }

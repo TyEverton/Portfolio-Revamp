@@ -52,7 +52,7 @@ function ContactForm() {
             type="submit"
             disabled={state.submitting}
           >
-            SEND
+            Send
           </button>
         </form>
       </section>

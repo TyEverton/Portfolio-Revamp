@@ -10,14 +10,14 @@
   width: 700px;
   background-color: white;
   left: 32%;
-  top: 195%;
+  top: 255%;
   border-radius: 10px;
   
 }
 
 .contactHeader {
   position: absolute;
-  top: 189%;
+  top: 249%;
   left: 32%;
   z-index: 2;
   font-family: 'Montserrat';
@@ -64,3 +64,31 @@
   border-width: 1px;
 }
 
+@media all and (max-width: 500px) {
+  .formContainer {
+    position: absolute;
+    top: 270%;
+    width: 25em;
+    height: 20em;
+    left: 12%;
+  }
+  .contactHeader {
+    font-size: 1.2em;
+    left: 40%;
+    top: 265%;
+  }
+  .input {
+    height: 2em;
+    width: 15em;
+  }
+  .textArea {
+    height: 7em;
+  }
+  .submitBtn {
+    width: 8em;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+  }
+}
