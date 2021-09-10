@@ -18,11 +18,11 @@ body {
   transition-duration: 0.7s;
 }
 
-.navBar:hover {
+/* .navBar:hover {
   background-color: #272D2D;
   width: 10vw;
   height: 2500px;
-}
+} */
 
 
 @media all and (max-width: 500px) {
