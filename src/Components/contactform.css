@@ -50,7 +50,7 @@
   position: relative;
   width: 50%;
   font-family: 'Montserrat';
-  border-color: #28C2FF;
+  border-color: rgb(173, 173, 173);
   border-radius: 5px;
   border-width: 1px;
 }
@@ -59,7 +59,7 @@
   width: 50%;
   height: 50px;
   font-family: 'Montserrat';
-  border-color: #28C2FF;
+  border-color: rgb(173, 173, 173);
   border-radius: 5px;
   border-width: 1px;
 }
