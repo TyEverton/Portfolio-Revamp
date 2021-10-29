@@ -1,6 +1,10 @@
 import React from 'react'
-import MealItYourWay from '../MealItYourWay.jpg'
 import './projects.css'
+import MealItYourWay from '../MealItYourWay.jpg'
+
+
+
+
 const Projects = () => {
   return (
     <div>
@@ -8,7 +12,7 @@ const Projects = () => {
       <div className="projectContainer">
         <section className="mealProjectBody">
           <img
-            alt="MealItYourWay Snapshot"
+            alt="MealItYourWay Snippet"
             className="mealPhoto"
             src={MealItYourWay}
           ></img>
@@ -19,12 +23,7 @@ const Projects = () => {
               Technologies to be Used: React, Google Places API, PostgreSQL,
               Massive
             </p>
-            <p>
-              I had a blast designing the UX and UI of Meal It Your Way. While
-              it is still in its design phase, this app is going to be an
-              alternative to apps like Uber Eats and Door Dash. Mostly to
-              challenge myself and to build something I can be proud of.
-            </p>
+            <p></p>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -32,6 +31,25 @@ const Projects = () => {
             >
               Github
             </a>
+          </section>
+        </section>
+        <section className="googleCloneProjectBody">
+          <img
+            alt="Google Clone Snippet"
+            className="googleClonePhoto"
+            // src={}
+          />
+          <h3 className="googleCloneHeader">Google Clone</h3>
+          <section className="googleCloneSummary">
+            <p>Technologies Used: React, CSS, HTML</p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/TyEverton/Google_Clone"
+            >
+              Github
+              </a>
+
           </section>
         </section>
       </div>

@@ -68,6 +68,37 @@
   bottom: 80%;
 }
 
+.googleCloneProjectBody {
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 9%;
+  font-family: 'Montserrat';
+  font-size: .9em;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-radius: 20px;
+  border-width: thin;
+  background-color: white;
+  height: 45%;
+  width: 80%;
+}
+
+.googleCloneHeader {
+  position: absolute;
+  bottom: 80%;
+  left: 33%;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+
+.googleCloneSummary {
+  position: relative;
+  width: 45%;
+  left: 33%;
+  bottom: -15%;
+}
+
 @media all and (max-width: 500px) {
   .projectsHeader {
     position: absolute;
