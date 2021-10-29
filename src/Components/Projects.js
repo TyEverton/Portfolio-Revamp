@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import MealItYourWay from '../MealItYourWay.jpg'
+import GoogleProject from "../GoogleProject.jpg"
 
 
 
@@ -37,7 +38,7 @@ const Projects = () => {
           <img
             alt="Google Clone Snippet"
             className="googleClonePhoto"
-            // src={}
+            src={GoogleProject}
           />
           <h3 className="googleCloneHeader">Google Clone</h3>
           <section className="googleCloneSummary">
