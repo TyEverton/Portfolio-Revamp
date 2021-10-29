@@ -33,7 +33,7 @@
   border-radius: 20px;
   padding: 2px;
   left: 1.5em;
-  top: 3.5em;
+  top: 1em;
   font-size: .5em;
 }
 
@@ -57,7 +57,7 @@
   border-radius: 20px;
   border-width: thin;
   background-color: white;
-  height: 50%;
+  height: 45%;
   width: 80%;
 }
 
@@ -65,7 +65,7 @@
   position: relative;
   width: 45%;
   left: 33%;
-  bottom: 70%;
+  bottom: 80%;
 }
 
 @media all and (max-width: 500px) {
