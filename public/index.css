@@ -250,3 +250,27 @@ body {
     top: 95%;
   }
 }
+
+@media all and (max-width: 500px) {
+  .devicon-linkedin-plain {
+     top: 10%;
+    left: 86.5%;
+    width: 3em;
+    height: 2em;
+    font-size: 1em;
+    position: fixed;
+    z-index: 1;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .devicon-github-original {
+     top: 15%;
+    left: 86.5%;
+    width: 3em;
+    height: 2em;
+    font-size: 1em;
+    position: fixed;
+    z-index: 1;
+  }
+}
