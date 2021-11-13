@@ -119,4 +119,25 @@
     top: 133%;
     left: 40%;
   }
+  .projectContainer {
+    width: 25em;
+    height: 20em;
+    position: absolute;
+    left: 11%;
+    top: 139%;
+  }
+  .mealPhoto {
+    
+  }
+  .mealProjectHeader {
+
+  }
+  .mealProjectBody {
+
+  }
+  .mealItSummary {
+
+  }
+  
 }
+
