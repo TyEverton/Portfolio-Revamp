@@ -1,0 +1,272 @@
+body {
+  background-color: rgb(248, 245, 245);
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  gap: 25%;
+  bottom: 35.5%;
+  left: 57%;
+  margin-right: 4%;
+}
+
+.devicon-github-original {
+  font-size: 1.5rem;
+  color: #28C2FF;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid;
+  padding: 5px;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+.devicon-github-original:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+  cursor: pointer;
+}
+
+.devicon-linkedin-plain {
+  font-size: 1.5rem;
+  color: #28C2FF;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid;
+  padding: 5px;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+.devicon-linkedin-plain:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+  cursor: pointer;
+}
+
+.skillsHeader {
+  position: absolute;
+  bottom: -6%;
+  left: 32%;
+  font-size: 1.5em;
+  font-family: 'Montserrat';
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10%;
+  position: absolute;
+  top: 105%;
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  height: 30%;
+  width: 35%;
+  left: 32%;
+  background-color: white;
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+}
+
+.htmlLogo {
+  width: 60px;
+  height: 60px;
+  border-style: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5%;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.htmlLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.cssLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.cssLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.javascriptLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.javascriptLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.nodejsLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.nodejsLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.reactLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.reactLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.postgresqlLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.postgresqlLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.expressLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.expressLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.gitLogo {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: rgb(173, 173, 173);
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 400ms;
+}
+
+.gitLogo:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px -7px #000000;
+}
+
+.projectsLogo {
+  height: 2%;
+  width: 2%;
+  color: blue;
+}
+
+.footer {
+  background-color: #272d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  font-family: 'Montserrat';
+  color: white;
+}
+
+@media all and (max-width: 500px) {
+  .navButtons {
+    top: 30%;
+    left: 63%;
+  }
+  .footer {
+    position: absolute;
+    top: 300vh;
+    width: 100vw;
+  }
+  .skillsHeader {
+    position: absolute;
+    top: 89%;
+    left: 40%;
+  }
+  .skillContainer {
+    width: 25em;
+    height: 20em;
+    position: absolute;
+    left: 11%;
+    top: 95%;
+  }
+  .devicon-linkedin-plain {
+     top: 12%;
+    left: 6%;
+    width: 3em;
+    height: 2em;
+    font-size: 1em;
+    position: fixed;
+    z-index: 1;
+  }
+  .devicon-github-original {
+     top: 17%;
+    left: 6%;
+    width: 3em;
+    height: 2em;
+    font-size: 1em;
+    position: fixed;
+    z-index: 1;
+  }
+}
+
+
