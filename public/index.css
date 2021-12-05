@@ -11,11 +11,13 @@ body {
   bottom: 35.5%;
   left: 57%;
   margin-right: 4%;
+  height: 15px;
+  width: 15px;
 }
 
 .devicon-github-original {
-  font-size: 1.5rem;
-  color: #28C2FF;
+  font-size: 5rem;
+  color: #28c2ff;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -30,13 +32,13 @@ body {
 
 .devicon-github-original:hover {
   transform: scale(1.1);
-  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
   cursor: pointer;
 }
 
 .devicon-linkedin-plain {
   font-size: 1.5rem;
-  color: #28C2FF;
+  color: #28c2ff;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -51,7 +53,7 @@ body {
 
 .devicon-linkedin-plain:hover {
   transform: scale(1.1);
-  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
   cursor: pointer;
 }
 
@@ -76,22 +78,22 @@ body {
   border: solid;
   border-color: white;
   border-radius: 10px;
-  height: 30%;
-  width: 35%;
+  /* height: 30%;
+  width: 35%;  */
   left: 32%;
   background-color: white;
-  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05); 
 }
 
-.htmlLogo {
-  width: 60px;
-  height: 60px;
+.htmlLogo{
   border-style: solid;
-  border-color: rgb(173, 173, 173);
+  border-color: rgb(179, 47, 47);
   padding: 5px;
   border-radius: 5%;
   border-width: 1px;
   transition: 400ms;
+  height: 5px;
+  width: 5px;
 }
 
 .htmlLogo:hover {
@@ -116,8 +118,8 @@ body {
 }
 
 .javascriptLogo {
-  width: 60px;
-  height: 60px;
+  height: 1px;
+  width: 1px;
   border: solid;
   border-color: rgb(173, 173, 173);
   padding: 5px;
@@ -164,8 +166,8 @@ body {
 }
 
 .postgresqlLogo {
-  width: 60px;
-  height: 60px;
+  width: 10px;
+  height: 10px;
   border: solid;
   border-color: rgb(173, 173, 173);
   padding: 5px;
@@ -180,8 +182,8 @@ body {
 }
 
 .expressLogo {
-  width: 60px;
-  height: 60px;
+  width: 10px;
+  height: 10px;
   border: solid;
   border-color: rgb(173, 173, 173);
   padding: 5px;
@@ -196,8 +198,8 @@ body {
 }
 
 .gitLogo {
-  width: 60px;
-  height: 60px;
+  width: 10px;
+  height: 10px;
   border: solid;
   border-color: rgb(173, 173, 173);
   padding: 5px;
@@ -216,8 +218,7 @@ body {
   width: 2%;
   color: blue;
 }
-
-.footer {
+*/ .footer {
   background-color: #272d2d;
   display: flex;
   justify-content: center;
@@ -250,7 +251,7 @@ body {
     top: 95%;
   }
   .devicon-linkedin-plain {
-     top: 12%;
+    top: 12%;
     left: 6%;
     width: 3em;
     height: 2em;
@@ -259,7 +260,7 @@ body {
     z-index: 1;
   }
   .devicon-github-original {
-     top: 17%;
+    top: 17%;
     left: 6%;
     width: 3em;
     height: 2em;
@@ -268,5 +269,3 @@ body {
     z-index: 1;
   }
 }
-
-
